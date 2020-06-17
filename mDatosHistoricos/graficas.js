@@ -46,8 +46,8 @@
        *fechaFin    = es la fecha actual
     */
     var d = new Date();
-    var fechaInicio =   "2020-04-01"; //d.getFullYear()  + "-" +  ((d.getMonth()+1) < 10 ? "0"+(d.getMonth()+1) : (d.getMonth()+1))  + "-" + ((d.getDate()-7) < 10 ? "0"+(d.getDate()-7) : (d.getDate()-7));
-    var fechaFin    =   "2020-04-30"; //d.getFullYear()  + "-" +  ((d.getMonth()+1) < 10 ? "0"+(d.getMonth()+1) : (d.getMonth()+1))  + "-" + (d.getDate() < 10 ? "0"+(d.getDate()) : (d.getDate()));   
+    var fechaInicio =   d.getFullYear()  + "-" +  ((d.getMonth()+1) < 10 ? "0"+(d.getMonth()+1) : (d.getMonth()+1))  + "-" + ((d.getDate()-7) < 10 ? "0"+(d.getDate()-7) : (d.getDate()-7));
+    var fechaFin    =   d.getFullYear()  + "-" +  ((d.getMonth()+1) < 10 ? "0"+(d.getMonth()+1) : (d.getMonth()+1))  + "-" + (d.getDate() < 10 ? "0"+(d.getDate()) : (d.getDate()));   
 
 
     /*
